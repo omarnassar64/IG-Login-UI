@@ -125,15 +125,5 @@ class _ForgotPasswordState extends State<ForgotPassword> {
     );
   }
 
-// _Recover(BuildContext context) {
-//   if ((RecoverController.text.contains('@') &&
-//       RecoverController.text.contains('.') 
-//        ||  
-//       (RecoverController.text is int && 
-//       RecoverController.text.length ==11 
-//        ))) {
-//     print("Wait for the link");
-//   }
-//   else {print("Enter a valid email or phone number");}
-// }
+
    }
