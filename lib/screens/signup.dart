@@ -148,34 +148,5 @@ class _SignupState extends State<Signup> {
     );
   }
 
-// _signup(BuildContext context) {
-//   if (((NewEmailController.text.contains('@') &&
-//       NewEmailController.text.contains('.') )
-//        ||  
-//       (RegExp(r'^\d{11}$').hasMatch(NewEmailController.text) && 
-//       NewEmailController.text.length ==11 
-//        )) && (NewPasswordController.text.length>=8) 
-//        && (!(UsernameController.text.contains(" ")))) {
-//     print("Sign up complete");
-//     NewEmailController.clear();
-//     NewPasswordController.clear();
-//     FullNmaeController.clear();
-//     UsernameController.clear();
-//     Navigator.pushReplacement(
-//       context,
-//       MaterialPageRoute(
-//         builder: (context) {
-//           return Login();
-//         },
-//       ),
-//     );
-//   }
-//   else if(NewPasswordController.text.length<8){
-//     print("Password must be more than 8 charecters");
-//   }
-//   else if(UsernameController.text.contains(' ')){
-//     print("Enter a valid username");
-//   }
-//   else {print("Enter a valid email or phone number");}
-// }
+
 }
