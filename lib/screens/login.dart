@@ -143,30 +143,5 @@ class _LoginState extends State<Login> {
        
   }
 
-  //  _login(BuildContext context) {
-  // if ((emailController.text.contains('@') &&
-  //     emailController.text.contains('.') &&
-  //     passwordController.text.length >= 8) || 
-  //     (RegExp(r'^\d{11}$').hasMatch(emailController.text) &&
-  //     passwordController.text.length >= 8 )) {
-  //   emailController.clear();
-  //   passwordController.clear();
-  //   Navigator.push(
-  //     context,
-  //     MaterialPageRoute(
-  //       builder: (context) {
-  //         return Profile();
-  //       },
-  //     ),
-  //   );
-  // } else if 
-  //   (!((emailController.text.contains('@') &&
-  //       emailController.text.contains('.')) || 
-  //       (RegExp(r'^\d{11}$').hasMatch(emailController.text)))) 
-  //     print('Enter a valid email or number');
-    
-  //   else if (passwordController.text.length < 8) {
-  //     print('wrong password');
-  //   }
-  // }
+ 
 }
